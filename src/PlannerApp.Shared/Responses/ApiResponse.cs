@@ -14,5 +14,5 @@ public class ApiResponse
 
 public class ApiResponse<T>
 {
-    public T Result { get; set; }
+    public T Value { get; set; }
 }
