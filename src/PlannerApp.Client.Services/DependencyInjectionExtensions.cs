@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlaneerApp.Client.Services;
+namespace PlannerApp.Client.Services;
 
 public static class DependencyInjectionExtensions
 {

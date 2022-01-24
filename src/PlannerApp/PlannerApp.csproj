@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PlaneerApp.Client.Services\PlannerApp.Client.Services.csproj" />
+    <ProjectReference Include="..\PlannerApp.Client.Services\PlannerApp.Client.Services.csproj" />
     <ProjectReference Include="..\PlannerApp.Shared\PlannerApp.Shared.csproj" />
   </ItemGroup>
 
