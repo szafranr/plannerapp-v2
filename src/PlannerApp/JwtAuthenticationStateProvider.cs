@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
+namespace PlannerApp;
 public class JwtAuthenticationStateProvider : AuthenticationStateProvider
 {
     private readonly ILocalStorageService _storage;

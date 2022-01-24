@@ -35,7 +35,7 @@ public class HttpPlansService : IPlansService
         else
         {
             var errorResponse = await response.Content.ReadFromJsonAsync<ApiErrorResponse>();
-            throw new ApiException (errorResponse,response.StatusCode);
+            throw new ApiException(errorResponse, response.StatusCode);
         }
     }
 }
