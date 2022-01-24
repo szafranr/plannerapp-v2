@@ -1,8 +1,6 @@
 ﻿@namespace PlannerApp.Components
 
 @*UI View Selector*@
-<MudText Typo="Typo.h4">My Plans</MudText>
-
 <MudIconButton Icon="@Icons.Material.Filled.GridView" Color="Color.Primary" OnClick="SetCardsView" Disabled="_isCardsViewEnabled"></MudIconButton>
 <MudIconButton Icon="@Icons.Material.Filled.TableView" Color="Color.Primary" OnClick="SetTableView" Disabled="@(!_isCardsViewEnabled)"></MudIconButton>
 
