@@ -13,11 +13,11 @@ namespace PlannerApp.Client.Services.Interfaces
     {
 
         Task<ApiResponse<PagedList<PlanSummary>>> GetPlansAsync(string query = null, int pageNumber = 1, int pageSize = 10);
-        //Task<ApiResponse<PlanDetail>> GetByIdAsync(string id);
+        Task<ApiResponse<PlanDetail>> GetByIdAsync(string id);
 
-        //Task<ApiResponse<PlanDetail>> CreateAsync(PlanDetail model, FormFile coverFile);
+        Task<ApiResponse<PlanDetail>> CreateAsync(PlanDetail model, FormFile coverFile);
 
-        //Task<ApiResponse<PlanDetail>> EditAsync(PlanDetail model, FormFile coverFile);
+        Task<ApiResponse<PlanDetail>> EditAsync(PlanDetail model, FormFile coverFile);
 
         Task DeleteAsync(string id);
 
